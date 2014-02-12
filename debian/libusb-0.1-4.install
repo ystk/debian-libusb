@@ -1,2 +1,1 @@
-/lib/libusb-0.1.so.*
-/usr/lib/libusb-0.1.so.*
+/lib/*/libusb-0.1.so.*
