@@ -1,3 +1,12 @@
+libusb (2:0.1.12-25) unstable; urgency=medium
+
+  * Move /usr/lib/$multiarch/libusb-0.1.so.4 from libusb-0.1-4 to
+    libusb-dev (closes: #763195) and add the corresponding Replaces:.
+  * Drop pre-Lenny Conflicts: and Replaces:.
+  * Bump Standards-Version to 3.9.6 (no changes).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 21 Oct 2014 20:43:38 +0200
+
 libusb (2:0.1.12-24) unstable; urgency=medium
 
   * Use dh-autoreconf instead of doing so using patches (closes: #748855).
